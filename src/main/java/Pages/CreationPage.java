@@ -36,6 +36,43 @@ public class CreationPage {
     @FindBy(css = ".MuiTablePagination-select")
     private WebElement rowsPerPageButton;
 
+    @FindBy(css = "div.MuiTablePagination-actions>button:nth-child(2)")
+    private WebElement paginationNextButton;
+
+    @FindBy(css = "div.MuiTablePagination-actions>button:nth-child(1)")
+    private WebElement paginationPreviousButton;
+
+    @FindBy(css = ".sfly-logo")
+    private WebElement logoImage;
+
+    @FindBy(css = "header > h2")
+    private WebElement pageNameImage;
+
+    @FindBy(css = "th:nth-child(1) > span")
+    private WebElement partnerSortingButton;
+
+    @FindBy(css = "th:nth-child(1) > span")
+    private WebElement partnerSortrtingButton;
+
+    @FindBy(css = "tr:nth-child(1) > td:nth-child(2)")
+    private WebElement dateAndStartTimeInfo;
+
+    @FindBy(css = "tr:nth-child(1) > td:nth-child(3)")
+    private WebElement endTimeInfo;
+
+    @FindBy(css = "tr:nth-child(1) > td:nth-child(4) > div")
+    private WebElement statusInfo;
+
+    @FindBy(css = "tr:nth-child(1)>td:nth-child(5)")
+    private WebElement numberOfProductsInfo;
+
+    @FindBy(css = "tr:nth-child(1)>td:nth-child(6)>button")
+    private WebElement allStatusesButton;
+
+
+
+
+
 
 
 
