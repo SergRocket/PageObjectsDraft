@@ -69,6 +69,50 @@ public class CreationPage {
     @FindBy(css = "tr:nth-child(1)>td:nth-child(6)>button")
     private WebElement allStatusesButton;
 
+    @FindBy(css = ".MuiDialog-container.MuiDialog-scrollPaper>div")
+    private WebElement feedConfigWindow;
+
+    @FindBy(css = "#customized-dialog-title")
+    private WebElement tilteFeedConfigWindow;
+
+    @FindBy(css = "#customized-dialog-title > button")
+    private WebElement feedConfigCloseButton;
+
+    @FindBy(css = "tr:nth-child(1) > td:nth-child(2) > label")
+    private WebElement saveFeedGoogleSwitch;
+
+    @FindBy(css = "tr:nth-child(1) > td:nth-child(3) > label")
+    private WebElement TPFeedGoogleSwitch;
+
+    @FindBy(css = "tr:nth-child(1) > td:nth-child(4) > label")
+    private WebElement runNightlyGoogleSwitch;
+
+    @FindBy(css = "tr:nth-child(2) > td:nth-child(2) > label")
+    private WebElement saveFeedBloomreachSwitch;
+
+    @FindBy(css = "tr:nth-child(2) > td:nth-child(3) > label")
+    private WebElement fTPFeedBloomreachSwitch;
+
+    @FindBy(css = "tr:nth-child(2) > td:nth-child(4) > label")
+    private WebElement runNightlyBloomreachSwitch;
+
+    @FindBy(css = "tr:nth-child(3) > td:nth-child(2) > label")
+    private WebElement saveFeedPowerReviewsSwitch;
+
+    @FindBy(css = "tr:nth-child(3) > td:nth-child(3) > label")
+    private WebElement fTPFeedPowerReviewsSwitch;
+
+    @FindBy(css = "tr:nth-child(3) > td:nth-child(4) > label")
+    private WebElement runNightlyPowerReviewsSwitch;
+
+    @FindBy(css = "tr:nth-child(1)>td:nth-child(5)>button")
+    private WebElement googleUpdateButton;
+
+    @FindBy(css = "tr:nth-child(2)>td:nth-child(5)>button")
+    private WebElement bloomreachUpdateButton;
+
+    @FindBy(css = "tr:nth-child(3)>td:nth-child(5)>button")
+    private WebElement powerReviewsUpdateButton;
 
 
 
